@@ -1,0 +1,39 @@
+:root {
+  /* Colors */
+  --color-primary: #8B7355;
+  --color-primary-dark: #6B5840;
+  --color-primary-light: #E8DFD3;
+  --color-secondary: #5C4A3A;
+  --color-accent: #A0885E;
+  --color-background: #F5F2ED;
+  --color-background-alt: #5C4A3A;
+  --color-surface: #EDEAE4;
+  --color-text: #2A2A2A;
+  --color-text-light: #7A7A7A;
+  --color-text-on-dark: #F5F2ED;
+  --color-border: #D5CEBC;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', sans-serif;
+  --font-body: 'Libre Franklin', sans-serif;
+  --font-heading-weight: 600;
+  --font-body-weight: 400;
+  --heading-style: normal;
+  --type-scale: 1.25;
+
+  /* Shape */
+  --radius: 4px;
+  --radius-button: 4px;
+  --radius-card: 6px;
+
+  /* Spacing */
+  --section-padding: 6rem;
+  --spacing-scale: 1;
+
+  /* Personality-driven tokens */
+  --heading-scale: 1.2;
+  --shadow-intensity: 0.75;
+  --anim-distance: 24px;
+  --anim-duration: 0.6s;
+  --anim-stagger: 80ms;
+}

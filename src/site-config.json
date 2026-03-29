@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Apex Roofing & Restoration",
+    "phone": "(512) 555-0387",
+    "category": "roofing",
+    "city": "Austin",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#8B7355",
+        "primaryDark": "#6B5840",
+        "primaryLight": "#E8DFD3",
+        "secondary": "#5C4A3A",
+        "accent": "#A0885E",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#2A2A2A",
+        "textLight": "#7A7A7A",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Austin's Trusted Roofing Experts",
+      "heroSubline": "Protecting your home from Texas storms since 2012. Locally owned & committed to quality craftsmanship for every roof we touch.",
+      "aboutTitle": "Rooted in Austin, Built on Trust",
+      "aboutText": [
+        "Founded in 2012, Apex Roofing & Restoration started as a small crew servicing historic homes in Travis County. Today, we're proud to serve growing communities across Williamson County with the same attention to detail.",
+        "We approach every project like it's our own home—using premium materials suited for Central Texas weather and training our team in storm damage diagnostics specific to our region.",
+        "When we're not on rooftops, you'll find us volunteering with Austin Habitat for Humanity or sponsoring Little League teams in Round Rock."
+      ],
+      "valueProps": [
+        {
+          "title": "Weather-Tested Materials",
+          "description": "We specify impact-resistant shingles and fortified underlayment to withstand Austin's hailstorms and 100°F summers."
+        },
+        {
+          "title": "Storm Damage Specialists",
+          "description": "Trained to identify subtle wind and hail damage that Austin insurers frequently miss during claims."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "Understands how limestone soils and flash floods affect roofs differently in Barton Hills vs. new Pflugerville builds."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "Detailed quotes with line-item breakdowns—no surprise fees after we start work."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Roof Evaluation",
+      "ctaSubline": "Our Austin-based team responds within 24 hours—even after major storms."
+    },
+    "services": [
+      {
+        "slug": "roof-replacement",
+        "name": "Roof Replacement",
+        "shortDescription": "Complete roof overhauls designed for Austin's extreme weather cycles.",
+        "description": "When those 110°F summers bake your shingles or a hailstorm leaves pockmarks across your roof, replacement becomes inevitable. We specialize in full tear-offs that address underlying decking issues common in older Austin homes.\n\nOur process starts with inspecting for moisture damage in the plywood—especially crucial for bungalows near Lady Bird Lake where humidity lingers. For newer subdivisions in Cedar Park, we focus on proper ventilation to prevent premature aging from attic heat buildup.\n\nChoose from Class 4 impact-resistant shingles that meet Austin's strict hail ratings, or opt for energy-reflective metal roofs that slash cooling costs during our relentless summers. Every replacement includes upgraded ice/water shield at the eaves—a must for Central Texas' sudden downpours.",
+        "process": [
+          "Step 1: Comprehensive inspection including moisture meter readings and attic airflow assessment",
+          "Step 2: Customized material selection based on your neighborhood's hail history and sun exposure",
+          "Step 3: Full tear-off with debris containment (we recycle 90% of materials)",
+          "Step 4: Installation with focus on leak-prone areas like chimney flashings"
+        ],
+        "benefits": [
+          "Energy Star-rated options reduce AC strain during Austin summers",
+          "5-year workmanship warranty backed by local availability",
+          "Storm-ready designs that meet Travis County building codes",
+          "Preservation of historic home character in central neighborhoods"
+        ],
+        "faq": [
+          {
+            "question": "How long does a roof replacement take in Austin?",
+            "answer": "Most homes take 2-3 days, but we allow extra time for historic properties where we may encounter unexpected decking repairs. Weather delays are rare—we plan around rain forecasts."
+          },
+          {
+            "question": "Will you handle HOA approvals in master-planned communities?",
+            "answer": "Yes, we're familiar with design guidelines in Circle C Ranch and similar neighborhoods, providing all required documentation for architectural review boards."
+          }
+        ]
+      },
+      {
+        "slug": "storm-damage-repair",
+        "name": "Storm Damage Repair",
+        "shortDescription": "Emergency repairs and insurance claim support after Austin hailstorms.",
+        "description": "Central Texas sits in 'Hail Alley,' where baseball-sized ice chunks can pummel roofs in minutes. Our team deploys within hours of major storms to perform temporary tarping—especially critical for older homes in East Austin with original wood shake roofs.\n\nWe document damage with 360° photo reports that insurers like State Farm and USAA routinely accept, noting subtle granule loss that indicates future leaks. For homes near the Williamson County line, we check for foundation-related roof stress from our clay-rich soils.\n\nUnlike storm chasers who disappear after claims, we remain your permanent repair partner. Our fixes blend seamlessly with existing materials, whether matching historic slate tiles downtown or color-blending composite shingles in Mueller's modern builds.",
+        "process": [
+          "Step 1: Emergency tarping within 12 hours for active leaks",
+          "Step 2: Detailed damage report with measurements and close-up photos",
+          "Step 3: Insurance claim assistance with preferred local adjusters",
+          "Step 4: Permanent repairs using matching materials"
+        ],
+        "benefits": [
+          "24/7 response team based in Round Rock",
+          "No upfront payments—we work directly with your insurer",
+          "Granule loss analysis predicts future failure points",
+          "Familiarity with Travis County's most common storm damage patterns"
+        ],
+        "faq": [
+          {
+            "question": "How soon should I get my roof inspected after a storm?",
+            "answer": "Within 72 hours is ideal—wind can dislodge flashing that appears intact, and early documentation strengthens insurance claims. We offer free post-storm evaluations."
+          },
+          {
+            "question": "Do you repair metal roofs damaged by hail?",
+            "answer": "Absolutely. We have specialized tools to reshape dented metal panels on commercial properties and modern homes, often avoiding full replacement."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-roofing",
+        "name": "Commercial Roofing",
+        "shortDescription": "Durable solutions for Austin offices, retail centers, and mixed-use buildings.",
+        "description": "Austin's booming commercial sector needs roofs that withstand delivery truck impacts, rooftop HVAC units, and the occasional downtown fireworks display. We specialize in flat roof systems for South Congress boutique hotels and standing seam metal for tech campuses in the Domain.\n\nOur crews are OSHA-certified to work around sensitive equipment at medical offices and data centers. For restaurants near Rainey Street, we install grease-resistant membranes that won't degrade from kitchen exhaust. Every project includes after-hours options to minimize business disruption.\n\nWe monitor Williamson County's unique weather patterns—designing drainage for the 6\" rainfalls that flood Pflugerville parking lots, and specifying UV-resistant coatings for west-facing retail strips in Cedar Park.",
+        "process": [
+          "Step 1: Site evaluation focusing on foot traffic patterns and equipment loads",
+          "Step 2: Material selection based on your industry's specific needs",
+          "Step 3: Phased installation coordinated with your operations schedule",
+          "Step 4: Semi-annual maintenance plans with priority response"
+        ],
+        "benefits": [
+          "Class A fire-rated systems for multi-tenant buildings",
+          "Energy-efficient TPO membranes reduce cooling costs",
+          "Custom flashing solutions for rooftop patios and signage",
+          "Compliance with Austin's commercial building codes"
+        ],
+        "faq": [
+          {
+            "question": "What's the lifespan of a typical Austin commercial roof?",
+            "answer": "15-25 years depending on material, but our maintenance program can extend that by addressing minor issues before they become major repairs—especially important with Austin's extreme temperature swings."
+          },
+          {
+            "question": "Can you work around our business hours?",
+            "answer": "Yes, we routinely schedule weekend and overnight work for retailers and restaurants, using temporary noise barriers when needed."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-installation",
+        "name": "Gutter Installation",
+        "shortDescription": "Heavy-duty gutters that handle Austin's torrential downpours.",
+        "description": "Austin's 'Flash Flood Alley' demands gutters that move water away from foundations quickly. We install 6\" commercial-grade aluminum systems—wider than standard residential models—to prevent overflow during those sudden 3-inch rains.\n\nFor historic homes in Clarksville, we craft seamless half-round gutters that match original profiles. Newer Georgetown builds get our leaf-guard systems with extra downspouts to account for live oak debris. Every installation includes soil grading checks to ensure proper drainage away from Central Texas' problematic clay soils.\n\nWe don't just slap on gutters—we engineer complete water management systems. This means adding rain chains for bungalow charm in Travis Heights, or discreet underground drains for minimalist modern homes in West Lake Hills.",
+        "process": [
+          "Step 1: Water flow analysis using your roof's pitch and square footage",
+          "Step 2: Custom fabrication on-site for perfect fit (no prefab sections)",
+          "Step 3: Reinforcement at stress points where Austin's heavy rains concentrate",
+          "Step 4: Downspout placement that directs water away from foundations"
+        ],
+        "benefits": [
+          "Seamless construction eliminates leak-prone joints",
+          "Heavy-duty hangers withstand 70+ mph wind gusts",
+          "Color matching for historic district compliance",
+          "Slope calculations prevent standing water breeding mosquitoes"
+        ],
+        "faq": [
+          {
+            "question": "How often should Austin gutters be cleaned?",
+            "Answer": "Twice annually—after spring oak pollen drops and again in fall. We offer maintenance plans that include debris removal and sealant checks."
+          },
+          {
+            "question": "Can gutters prevent foundation issues in our clay soil?",
+            "Answer": "Properly installed gutters are your first defense. We extend downspouts 5+ feet from foundations in neighborhoods like Circle C where soil movement is common."
+          }
+        ]
+      },
+      {
+        "slug": "roof-inspection",
+        "name": "Roof Inspection",
+        "shortDescription": "Thorough evaluations that spot Austin-specific roof vulnerabilities.",
+        "description": "Most roof inspections miss the subtle signs of trouble brewing in Central Texas homes. Our certified inspectors climb onto every plane (no drone shortcuts) to check for hail-induced cracks in south-facing shingles—the side that bears Austin's fiercest sun.\n\nWe examine attics for proper ventilation, a critical factor in preventing premature aging during our 100-degree streaks. For homes near the Balcones Fault, we look for stress cracks where limestone shifting has affected roof planes. Every report includes repair priority ratings so you know whether to act now or monitor.\n\nSpecial attention goes to historic properties downtown, where we assess original materials like cedar shakes and terracotta tiles for restoration potential versus replacement needs. Newer subdivisions get hail resistance scoring based on their exposure in Williamson County's storm corridors.",
+        "process": [
+          "Step 1: Exterior assessment of all roof surfaces and penetrations",
+          "Step 2: Attic inspection checking for moisture and ventilation issues",
+          "Step 3: Documentation with thermal imaging when temperature differentials allow",
+          "Step 4: Customized maintenance plan based on your roof type and age"
+        ],
+        "benefits": [
+          "Identifies small issues before they become expensive repairs",
+          "Prepares documentation for insurance renewals",
+          "Includes gutter and flashing condition reports",
+          "Provides realistic lifespan projections"
+        ],
+        "faq": [
+          {
+            "question": "How often should I get my roof inspected in Austin?",
+            "Answer": "Annually—more frequently if you have an older roof or live in hail-prone areas like northern Williamson County where storms frequently track."
+          },
+          {
+            "question": "Do you inspect tile roofs differently?",
+            "Answer": "Yes, we use specialized tools to check for cracked tiles under the surface and assess mortar conditions—common issues with Austin's freeze-thaw cycles."
+          }
+        ]
+      },
+      {
+        "slug": "shingle-repair",
+        "name": "Shingle Repair",
+        "shortDescription": "Precision fixes that blend seamlessly with your existing roof.",
+        "description": "Those missing shingles after an Austin windstorm aren't just ugly—they're entry points for rain that can rot your decking. Our repair team carries color-matched architectural shingles for every major brand, ensuring patches disappear visually on your roof.\n\nWe go beyond simple replacements by addressing the root cause—whether it's inadequate nailing on new builds in Pflugerville or wind uplift from improper starter courses in Georgetown's older homes. Every repair includes surrounding shingle reinforcement to prevent future failures.\n\nSpecial techniques preserve historic integrity for bungalows in Hyde Park, where we hand-cut replacement shingles to match original dimensions. For modern homes in Steiner Ranch, we ensure repairs maintain the energy-efficient reflective properties of your existing roof system.",
+        "process": [
+          "Step 1: Damage assessment identifying underlying causes",
+          "Step 2: Material matching from our mobile inventory",
+          "Step 3: Precision removal without disturbing adjacent shingles",
+          "Step 4: Installation with sealant application at stress points"
+        ],
+        "benefits": [
+          "Same-day service for most minor repairs",
+          "Color blending for seamless aesthetics",
+          "Wind-resistant installation techniques",
+          "Warranty-backed workmanship"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair just a few missing shingles?",
+            "Answer": "Yes, but we'll advise if surrounding shingles show wear that makes spot repairs less effective—common in Austin homes over 15 years old."
+          },
+          {
+            "question": "Will repairs affect my roof's warranty?",
+            "Answer": "Our work complies with manufacturer requirements when using approved materials. We document all repairs for your records."
+          }
+        ]
+      },
+      {
+        "slug": "metal-roofing",
+        "name": "Metal Roofing",
+        "shortDescription": "Energy-efficient metal roofs built for Texas extremes.",
+        "description": "Austin's solar gain makes metal roofs an increasingly smart choice—their reflective surfaces can lower attic temperatures by 20°F compared to asphalt. We install standing seam systems that expand and contract silently during our 50-degree daily temperature swings.\n\nFor contemporary homes in West Austin, we offer sleek vertical panels with concealed fasteners. Hill Country estates get traditional stamped metal that mimics wood shake without the fire risk. Every installation includes specialized underlayment to prevent condensation—a must in our humid climate.\n\nWe engineer for Williamson County's unique challenges: reinforced seams for hail protection in Round Rock, and extra corrosion resistance for properties near Lake Travis where salty breezes accelerate wear. Commercial clients appreciate our 40-year finish warranties on panel systems.",
+        "process": [
+          "Step 1: Structural evaluation ensuring your deck can support metal weight",
+          "Step 2: Custom fabrication with onsite measurements for perfect fit",
+          "Step 3: Installation with attention to thermal movement requirements",
+          "Step 4: Final inspection checking for proper water shedding"
+        ],
+        "benefits": [
+          "Class A fire rating for wildfire-prone areas",
+          "75% recycled content in most systems",
+          "Withstands 120 mph winds—critical for Austin's severe storms",
+          "Can be installed over existing roofs in many cases"
+        ],
+        "faq": [
+          {
+            "question": "Are metal roofs noisy during rain?",
+            "Answer": "Not with proper installation—we include sound-dampening underlayment that makes rainfall quieter than on traditional shingles."
+          },
+          {
+            "question": "How does metal perform in Austin hailstorms?",
+            "Answer": "Our panels resist denting from all but the largest hail, and we offer hail-resistant coatings that maintain warranty coverage after impacts."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Round Rock",
+        "slug": "round-rock",
+        "state": "TX",
+        "content": "Serving Round Rock since 2015, we understand how rapid growth has created roofing challenges in this bustling city. Many homes in master-planned communities like Teravista need specialized attention—their steep pitches require careful material handling during replacements. We're familiar with HOA requirements throughout the city and keep current on approved shingle colors for neighborhoods with strict aesthetic guidelines.\n\nOur storm damage team frequently responds to hail claims along the I-35 corridor, where commercial properties like the Round Rock Premium Outlets need durable solutions. We coordinate with local insurance adjusters who know Williamson County's unique weather patterns.",
+        "localContext": "Family-oriented community with 1990s-2000s builds needing roof refreshes as original materials reach end-of-life.",
+        "nearbyAreas": [
+          "Austin",
+          "Cedar Park",
+          "Pflugerville",
+          "Hutto"
+        ]
+      },
+      {
+        "city": "Cedar Park",
+        "slug": "cedar-park",
+        "state": "TX",
+        "content": "Cedar Park's explosive growth means many roofs were installed during construction booms—some needing premature repairs. We specialize in identifying shortcuts taken by volume builders, particularly in subdivisions like Buttercup Creek where improper flashing installations are common.\n\nThe city's elevation makes it particularly vulnerable to high winds coming off the Hill Country. Our wind mitigation techniques include specialized hip and ridge cap installations that have protected homes through multiple storm seasons. We also service commercial properties along 183A, where flat roof systems require specialized maintenance.",
+        "localContext": "2000s suburban expansion with modern homes needing weatherproofing upgrades.",
+        "nearbyAreas": [
+          "Leander",
+          "Round Rock",
+          "Austin",
+          "Liberty Hill"
+        ]
+      },
+      {
+        "city": "Georgetown",
+        "slug": "georgetown",
+        "state": "TX",
+        "content": "Historic downtown Georgetown presents unique roofing challenges—from preserving century-old materials to matching modern replacements that meet strict preservation guidelines. We've restored slate roofs on Williamson County courthouse-area buildings using traditional techniques.\n\nFor newer developments like Santa Rita Ranch, we install impact-resistant materials suited for the area's frequent hail storms. Our team knows which neighborhoods are prone to clay soil shifting that can stress roof planes, and we design solutions accordingly. Georgetown's mix of old and new makes us particularly valuable here.",
+        "localContext": "Charming Victorian homes downtown contrast with rapidly expanding suburban developments.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Liberty Hill",
+          "Jarrell",
+          "Taylor"
+        ]
+      },
+      {
+        "city": "Pflugerville",
+        "slug": "pflugerville",
+        "state": "TX",
+        "content": "Pflugerville's affordable housing boom means many roofs were built to minimum standards—we help homeowners upgrade before problems arise. The area's clay-heavy soil requires special attention to drainage systems that prevent foundation stresses from affecting roof integrity.\n\nWe service everything from first-time buyer homes in Falcon Pointe to custom builds near Lake Pflugerville. Our team keeps current on the city's rapid development, knowing which builders used quality materials versus those likely to need early replacement. Commercial clients along Pecan Street appreciate our fast response to storm damage.",
+        "localContext": "Fast-growing community with newer construction at various quality levels.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Austin",
+          "Hutto",
+          "Manor"
+        ]
+      },
+      {
+        "city": "Austin",
+        "slug": "austin",
+        "state": "TX",
+        "content": "As Austin natives, we understand how drastically roofing needs vary across the city. Downtown high-rises need specialized access planning, while Barton Hills bungalows require careful historic preservation. We're experts in Austin's unique challenges—from UV degradation on west-facing slopes to proper ventilation for homes without attic space in central neighborhoods.\n\nOur team services all major suburbs but remains deeply committed to central Austin, where we've restored roofs on everything from Sixth Street commercial buildings to Clarksville cottages. We navigate the city's complex permitting process efficiently and know which materials perform best in each microclimate.",
+        "localContext": "Eclectic mix from historic downtown properties to modern high-rises, all facing intense sun and storm exposure.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Cedar Park",
+          "Pflugerville",
+          "West Lake Hills"
+        ]
+      },
+      {
+        "city": "Leander",
+        "slug": "leander",
+        "state": "TX",
+        "content": "Leander's rapid northward expansion brings roofing challenges as new developments push into previously rural areas. We help homeowners transitioning from well-built older homes to newer constructions that may need quality upgrades. The area's exposure to northerly storms requires specialized wind-resistant installations.\n\nOur commercial team services growing business parks along 183A, where flat roof systems must handle both heavy rains and reflective heat from adjacent parking lots. We're familiar with the city's evolving building codes and work closely with local inspectors to ensure compliance.",
+        "localContext": "Transitioning from small-town to suburban character with corresponding construction shifts.",
+        "nearbyAreas": [
+          "Cedar Park",
+          "Liberty Hill",
+          "Round Rock",
+          "Georgetown"
+        ]
+      },
+      {
+        "city": "Manor",
+        "slug": "manor",
+        "state": "TX",
+        "content": "Manor's agricultural roots mean we encounter unique roofing situations—from historic barn conversions to new subdivisions replacing farmland. We're experts in addressing the area's high wind exposure, particularly for homes near open fields where gusts accelerate.\n\nThe city's growth along US 290 brings commercial roofing opportunities, where we install durable systems for distribution centers and retail developments. For older homes in the downtown area, we specialize in matching original materials while improving weather resistance. Manor's mix of rural and urban makes our broad expertise particularly valuable here.",
+        "localContext": "Rural community transitioning to suburban with corresponding construction needs.",
+        "nearbyAreas": [
+          "Austin",
+          "Pflugerville",
+          "Elgin",
+          "Cedar Creek"
+        ]
+      },
+      {
+        "city": "Liberty Hill",
+        "slug": "liberty-hill",
+        "state": "TX",
+        "content": "Liberty Hill's limestone-rich soil creates foundation movements that stress roofs—we design systems that accommodate slight shifts without compromising integrity. The area's rural character means many homes need specialized solutions like metal roofs that resist wildfire embers.\n\nWe service everything from historic downtown buildings to sprawling ranch properties, understanding how roofing needs differ across these property types. Our storm response team is particularly active here after northerly fronts bring high winds down the open plains. Commercial clients appreciate our knowledge of agricultural building requirements.",
+        "localContext": "Small-town atmosphere with increasing suburban development pressures.",
+        "nearbyAreas": [
+          "Georgetown",
+          "Leander",
+          "Burnet",
+          "Bertram"
+        ]
+      },
+      {
+        "city": "Hutto",
+        "slug": "hutto",
+        "state": "TX",
+        "content": "Hutto's explosive growth means we're often repairing roofs installed during construction booms—identifying shortcuts taken by volume builders. The area's high clay content requires specialized attention to drainage systems that prevent foundation issues from affecting roof planes.\n\nWe service everything from starter homes in new developments to historic properties near Old Town. Our team knows which neighborhoods are prone to particular issues—like wind uplift in exposed subdivisions north of SH 79. Commercial clients along the 130 toll road appreciate our fast response to storm damage at industrial properties.",
+        "localContext": "Rapidly growing community with mix of affordable housing and custom builds.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Pflugerville",
+          "Taylor",
+          "Georgetown"
+        ]
+      },
+      {
+        "city": "Taylor",
+        "slug": "taylor",
+        "state": "TX",
+        "content": "Taylor's historic downtown presents unique roofing challenges—we've restored everything from 19th-century mercantile buildings to mid-century schools. The area's proximity to the Blackland Prairie means we design for both intense sun exposure and sudden downpours.\n\nFor newer developments near the Tesla gigafactory, we install commercial-grade systems that withstand industrial area conditions. Our team understands how the city's clay soils affect roof stresses differently than nearby sandy areas. Taylor's mix of old and new makes our broad expertise particularly valuable here.",
+        "localContext": "Historic charm meets rapid industrial growth with corresponding roofing needs.",
+        "nearbyAreas": [
+          "Hutto",
+          "Georgetown",
+          "Thrall",
+          "Granger"
+        ]
+      },
+      {
+        "city": "West Lake Hills",
+        "slug": "west-lake-hills",
+        "state": "TX",
+        "content": "West Lake Hills' luxury homes demand roofing solutions that match their high-end finishes. We specialize in premium materials like standing seam copper and slate alternatives that provide elegance without excessive maintenance. The area's steep slopes and dense tree cover require specialized safety protocols during installations.\n\nOur team understands the neighborhood's strict aesthetic requirements and works closely with architects on custom solutions. We're experts in addressing the unique challenges of hillside homes—from proper drainage on sloping lots to wildfire-resistant materials for properties backing up to greenbelts.",
+        "localContext": "Affluent community with architecturally significant homes needing premium solutions.",
+        "nearbyAreas": [
+          "Austin",
+          "Bee Cave",
+          "Rollingwood",
+          "Lakeway"
+        ]
+      },
+      {
+        "city": "Bee Cave",
+        "slug": "bee-cave",
+        "state": "TX",
+        "content": "Bee Cave's mix of luxury estates and commercial developments requires roofing expertise across multiple property types. We install high-end systems for Hill Country homes that withstand both intense sun and occasional freeze events. The area's elevation makes proper wind mitigation critical.\n\nOur commercial team services retail centers along Highway 71, where we've designed energy-efficient systems for large footprint buildings. For residential clients, we're experts in matching materials to the area's rustic aesthetic while providing modern performance. Bee Cave's unique position between urban and rural makes our broad experience particularly valuable.",
+        "localContext": "Affluent community blending Hill Country character with upscale development.",
+        "nearbyAreas": [
+          "West Lake Hills",
+          "Lakeway",
+          "Austin",
+          "Dripping Springs"
+        ]
+      },
+      {
+        "city": "Lakeway",
+        "slug": "lakeway",
+        "state": "TX",
+        "content": "Lakeway's lakeside location creates unique roofing challenges—from salt air corrosion to increased humidity under decks. We specialize in systems that withstand these conditions while maintaining the community's upscale aesthetic. The area's mature trees require careful attention to debris management in gutter systems.\n\nOur team frequently works on homes in The Hills complex, understanding their specific material requirements. We're experts in addressing the reflection issues caused by Lake Travis, specifying UV-resistant materials for south-facing slopes. Commercial clients appreciate our knowledge of resort-style property needs along the 620 corridor.",
+        "localContext": "Luxury lakeside community with specific weather and aesthetic demands.",
+        "nearbyAreas": [
+          "Bee Cave",
+          "Austin",
+          "Hudson Bend",
+          "Spicewood"
+        ]
+      },
+      {
+        "city": "Dripping Springs",
+        "slug": "dripping-springs",
+        "state": "TX",
+        "content": "Dripping Springs' rural character means we encounter everything from historic farmhouses to modern vineyard estates. We specialize in fire-resistant materials for properties backing up to wildland areas—a growing concern in our changing climate. The area's limestone bedrock requires specialized flashing techniques where roofs meet stone walls.\n\nOur team understands how to blend traditional aesthetics with modern performance, whether restoring a century-old barn roof or installing a new metal system on a Hill Country mansion. Commercial clients along US 290 appreciate our knowledge of agricultural building requirements and tasting room design needs.",
+        "localContext": "Hill Country community balancing rural preservation with growth pressures.",
+        "nearbyAreas": [
+          "Bee Cave",
+          "Austin",
+          "Driftwood",
+          "Wimberley"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Storm Damage Repair",
+        "text": "After the April hailstorm left my Round Rock home with dozens of damaged shingles, Apex had a crew out within hours to tarp the worst spots. Their detailed documentation helped State Farm approve a full replacement without hassle. The new impact-resistant shingles look great and give me peace of mind.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Maria G.",
+        "rating": 5,
+        "service": "Metal Roofing",
+        "text": "We chose Apex for our Barton Hills bungalow's metal roof after seeing their work on a neighbor's historic home. They perfectly matched the standing seam profile to maintain our 1940s aesthetic while adding modern weather protection. Even during heavy rains, the roof is whisper quiet.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "David & Sarah L.",
+        "rating": 5,
+        "service": "Roof Replacement",
+        "text": "Our Pflugerville home's original roof was failing after just 12 years—turns out the builder used cheap materials. Apex explained all our options clearly and installed a premium system that should last decades. They even coordinated with our HOA to ensure color compliance.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Robert K.",
+        "rating": 5,
+        "service": "Commercial Roofing",
+        "text": "As property manager for a Georgetown retail center, I appreciate Apex's proactive approach. Their semi-annual inspections caught minor flashing issues before they became leaks. When we needed a section replaced after a storm, they worked nights to avoid disrupting tenants.",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Gutter Installation",
+        "text": "Our Cedar Park home's original gutters couldn't handle Austin's downpours. Apex designed a custom 6\" system with extra downspouts that solved our foundation drainage issues. Two years later, not a single overflow—even during the Memorial Day floods.",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Roof Inspection",
+        "text": "The free inspection revealed ventilation problems in our Mueller attic that were cooking our shingles from underneath. Apex's affordable fix added years to our roof's life. Their thermal imaging showed exactly where heat was trapped—super insightful!",
+        "date": "2024-10-22"
+      },
+      {
+        "name": "Emily S.",
+        "rating": 5,
+        "service": "Shingle Repair",
+        "text": "When wind tore shingles off our East Austin bungalow, Apex matched the vintage-style architectural shingles perfectly. The repair blends seamlessly—you'd never know it wasn't original. Their crew even repaired our historic wood soffit at no extra charge.",
+        "date": "2024-09-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Austin Roofing Company | Storm Damage & Roof Replacement",
+        "description": "Local Austin roofers specializing in storm damage repair, roof replacement, and commercial roofing services for Central Texas homes and businesses."
+      },
+      "about": {
+        "title": "About Our Austin Roofing Company | Apex Roofing",
+        "description": "Learn about our Austin-based roofing team's commitment to quality craftsmanship and community involvement since 2012."
+      },
+      "services": {
+        "title": "Austin Roofing Services | Replacement & Repair Experts",
+        "description": "Complete roofing services for Austin homes including storm damage repair, metal roofing installation, and commercial flat roof systems."
+      },
+      "contact": {
+        "title": "Contact Austin Roofers | Free Estimates",
+        "description": "Schedule your roof inspection or repair with Austin's trusted roofing company. Serving Round Rock, Cedar Park, and all Central Texas."
+      },
+      "reviews": {
+        "title": "Austin Roofing Reviews | Apex Roofing Testimonials",
+        "description": "Read verified customer reviews from Austin homeowners who trusted Apex Roofing for their roof replacement and repair projects."
+      },
+      "service-areas": {
+        "title": "Austin Roofing Service Areas | Central Texas",
+        "description": "We provide roofing services throughout Austin and surrounding communities including Round Rock, Cedar Park, and Georgetown."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "about": "/images/about.webp",
+    "services": {
+      "roof-replacement": "/images/service-roof-replacement.webp",
+      "storm-damage-repair": "/images/service-storm-damage-repair.webp",
+      "commercial-roofing": "/images/service-commercial-roofing.webp",
+      "gutter-installation": "/images/service-gutter-installation.webp",
+      "roof-inspection": "/images/service-roof-inspection.webp",
+      "shingle-repair": "/images/service-shingle-repair.webp",
+      "metal-roofing": "/images/service-metal-roofing.webp"
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ]
+  }
+}
